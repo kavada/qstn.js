@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<!-- Main CSS -->
+		<link rel="stylesheet" type="text/css" href="src/css/main.css">
+
+		<!-- Google Maps -->
+		<!-- GOOGLE MAPS SCRIPT NEEDED HERE -->
+		<script src="https://maps.googleapis.com/maps/api/js?sensor=false&amp;libraries=places&amp;key=AIzaSyC3yKdD_jDNxb4dEL4AD_eDcltW8WiVvPU"></script>
+		
+		<!-- RequireJS -->
+		<script src="src/js/require.js"></script>
+
+	</head>
+	<body>
+		<div class="mp-app"></div>
+		<script>
+			requirejs(['src/js/config'],function(){
+				requirejs(['progress','moment','nouislider','jQuery','mask','datetimepicker','app','api','geocomplete','messenger','home','searcher','jSignature','sign','qstn'],
+				(progress,moment,nouislider) => {
+					var app = new App(), messenger = new Messenger(), home = new Home(), searcher = new Searcher(), qstn = new Qstn();
+					window.progress = progress;
+					window.moment = moment;
+					window.noUiSlider = nouislider;
+					messenger.init();
+					app.init({'type':'frontend'});
+					home.init();
+					qstn.init();
+					searcher.init();
+				});
+			});
+		</script>
+	</body>
+</html>

@@ -1,0 +1,327 @@
+.qstn-form {
+
+}
+
+.qstn-form-section {
+	display: none !important;
+}
+
+.qstn-form-section.active {
+	display: flex !important;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+/*.qstn-form-section-title {
+    margin: 10px 5px 20px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}*/
+
+.qstn-form-section-title {
+    margin: 20px 0px 30px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Lora';
+}
+
+.qstn-form-block {
+    padding: 0px 5px;
+}
+
+.qstn-form-field {
+	margin-bottom: 20px;
+}
+
+.qstn-form-field-title {
+    margin-bottom: 6px;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.qstn-form-input {
+    position: relative;
+}
+
+.qstn-form-slider {
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    width: calc(100% - 10px);
+}
+
+.qstn-form-slider-content {
+    width: 100%;
+    min-height: 100px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.qstn-not-required .qstn-form-input-status {
+    display: none;
+}
+
+.qstn-form-input-error .qstn-form-input-status {
+    background: #f44336;
+}
+
+.qstn-form-input-complete .qstn-form-input-status {
+    background: #4caf50;
+}
+
+.qstn-form-input-status {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 8px;
+    height: 8px;
+    background: #ececec;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.qstn-form-checkboxes {
+    justify-content: flex-start !important;
+}
+
+.qstn-form-checkbox-holder {
+    margin-bottom: 6px;
+}
+
+.qstn-form-checkbox-title {
+    padding-left: 10px;
+    width: calc(100% - 42px);
+    justify-content: flex-start !important;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.qstn-form-checkbox-label {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border: 1px solid rgba(20,20,20,0.1);
+    cursor: pointer;
+}
+
+.qstn-form-checkbox-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.qstn-form-checkbox-label input {
+    opacity: 0;
+}
+
+.qstn-form-radios {
+    justify-content: flex-start !important;
+    margin-top: 10px;
+}
+
+.qstn-form-radio-holder {
+    position: relative;
+    padding-bottom: 8px;
+}
+
+.qstn-form-radio-item input {
+    position: absolute;
+    width: inherit !important;
+    height: inherit !important;
+    opacity: 0.25;
+}
+
+.qstn-form-radio-icon {
+    width: 24px;
+    height: 24px !important;
+    display: inline-flex !important;
+    border: 2px solid var(--mp-orange);
+    /*color: #5c6ffe;*/
+    color: #4caf50;
+}
+
+.qstn-form-radio-label {
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+}
+
+.qstn-form-radio-title {
+    width: calc(100% - 44px);
+    justify-content: flex-start !important;
+    padding-left: 10px;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+input.qstn-form-value,
+select.qstn-form-value {
+	width: 100%;
+    height: 44px;
+    font-size: 16px;
+    font-weight: 300;
+    text-indent: 10px;
+    margin: 0px;
+    border: 1px solid rgba(20,20,20,0.1);
+    outline: none;
+}
+
+select.qstn-form-value {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-overflow: '';
+    border-radius: 0;
+    background: #fff;
+}
+
+textarea.qstn-form-value {
+    width: 100%;
+    height: 100px;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 10px;
+    margin: 0px;
+    border: 1px solid rgba(20,20,20,0.1);
+    resize: none;
+}
+
+input.qstn-form-value[type=checkbox] {
+    height: inherit;
+}
+
+.qstn-form-value[type=radio] {
+    display: none;
+}
+
+.qstn-form-toolbar {
+    padding: 0px 5px;
+}
+
+.qstn-form-back-btn {
+    width: 100px;
+    height: 46px !important;
+    background: #fff;
+    text-transform: capitalize;
+    font-family: 'Lora';
+    cursor: pointer;
+}
+
+.qstn-form-btn {
+    width: 150px;
+	height: 46px !important;
+    font-family: 'Lora';
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.qstn-form-btn {
+    opacity: 0.5
+}
+
+.qstn-form-btn.ready {
+    opacity: 1;
+}
+
+.qstn-form-btn:hover {
+    cursor: pointer;
+}
+
+.qstn-form-message {
+    display: none;
+}
+
+.qstn-form-notes-section {
+    margin-bottom: 15px;
+}
+
+.qstn-form-notes-title {
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.qstn-form-notes-text {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.qstn-form-notes-list li {
+    margin-bottom: 10px;
+}
+
+.qstn-form-notes-dynamic-input-field {
+    position: relative;
+    display: inline-flex;
+    font-weight: 600;
+}
+
+#qstn-form-notes-pfra-name:after {
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    border-bottom: 2px solid red;
+}
+
+/* Signature */
+.signature {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.jSignature {
+    height: 80px !important;
+}
+
+.jSignature:hover {
+    cursor: crosshair;
+}
+
+.jsignature-toolbar {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.jsignature-undo {
+    position: absolute;
+    top: 7px;
+    right: 3px;
+    width: 30px;
+    height: 30px !important;
+    border: none;
+    font-size: 14px;
+    background: #333;
+    color: #fff;
+    padding: 0px;
+    cursor: pointer;
+}
+
+.jsignature-save {
+    display: none !important;
+    position: absolute;
+    top: 7px;
+    right: 3px;
+    width: 30px;
+    height: 30px !important;
+    border: none;
+    font-size: 14px;
+    background: #333;
+    color: #fff;
+    padding: 0px;
+    cursor: pointer;
+}
+
+.qstn-form-signature-image {
+    display: none;
+}
