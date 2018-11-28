@@ -41,12 +41,12 @@ class Qstn {
 							<div class="qstn-form-title"></div>
 							<div class="qstn-form-sections"></div>
 							<div class="qstn-form-toolbar mp-wrapper">
-								<div class="mp-xs-100 mp-sm-50 mp-md-50 mp-lg-50">
+								<div class="mp-xs-50 mp-sm-50 mp-md-50 mp-lg-50">
 									<div class="qstn-form-btn-container mp-wrapper" style="justify-content: flex-start">
 										<div class="qstn-form-back-btn mp-wrapper" data-id="`+this.data.uid+`" style="display: none;">back</div>
 									</div>
 								</div>
-								<div class="mp-xs-100 mp-sm-50 mp-md-50 mp-lg-50">
+								<div class="mp-xs-50 mp-sm-50 mp-md-50 mp-lg-50">
 									<div class="qstn-form-btn-container mp-wrapper" style="justify-content: flex-end">
 										<div class="qstn-form-btn mp-wrapper mp-25" data-send="`+send+`" data-runfunction="`+runfunction+`" data-id="`+this.data.uid+`" style="`+this.data.submit.button.style+`">continue</div>
 									</div>

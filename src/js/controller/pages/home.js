@@ -11,7 +11,7 @@ class Home {
 						<div class="mp-page-cover mp-wrapper"></div>
 						<div class="mp-page-section mp-wrapper">
 							<div class="mp-container">
-								<div class="mp-wrapper mp-page-section-right">
+								<div class="mp-wrapper mp-page-section-left">
 									<div class="mp-page-section-block mp-xs-100 mp-sm-50">
 										<div class="mp-page-section-image mp-wrapper mp-xs-100 mp-sm-90">
 											<div class="mp-page-cover-form">
@@ -40,7 +40,7 @@ class Home {
 						</div>
 						<div class="mp-page-section mp-wrapper">
 							<div class="mp-container">
-								<div class="mp-wrapper mp-page-section-left">
+								<div class="mp-wrapper mp-page-section-right">
 									<div class="mp-page-section-block mp-xs-100 mp-sm-50">
 										<div class="mp-page-section-content">
 											<div class="mp-page-section-title">Contact form</div>
@@ -68,7 +68,7 @@ class Home {
 						</div>
 						<div class="mp-page-section mp-wrapper">
 							<div class="mp-container">
-								<div class="mp-wrapper mp-page-section-right">
+								<div class="mp-wrapper mp-page-section-left">
 									<div class="mp-page-section-block mp-xs-100 mp-sm-50">
 										<div class="mp-page-section-image mp-wrapper mp-xs-100 mp-sm-90">
 											<div class="mp-page-cover-form">

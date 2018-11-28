@@ -283,6 +283,10 @@ input.qstn-form-value[type=checkbox] {
     height: 80px !important;
 }
 
+canvas.jSignature {
+    width: 100% !important;
+}
+
 .jSignature:hover {
     cursor: crosshair;
 }
